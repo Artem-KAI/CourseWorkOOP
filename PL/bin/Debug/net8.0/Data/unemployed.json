@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "f4232683-0c7f-47ce-b72a-9d33b4da72ab",
+    "FirstName": "\u0410\u043D\u0442\u043E\u043D",
+    "LastName": "\u0413\u0430\u043B\u0430\u043A\u0430",
+    "DOB": null,
+    "Phone": "",
+    "Email": "qwqewqe@gmail.com",
+    "ResumeIds": []
+  },
+  {
+    "Id": "0fe6ba67-8d3a-4047-b5f0-fb778fe771df",
+    "FirstName": "\u0410\u0440\u0442\u0435\u043C",
+    "LastName": "\u041C\u0456\u0449\u0435\u043D\u043A\u043E",
+    "DOB": null,
+    "Phone": "",
+    "Email": "mischenko@gmail.com",
+    "ResumeIds": []
+  },
+  {
+    "Id": "020e429d-3f45-4550-8c4a-502b8748eb44",
+    "FirstName": "\u041C\u0430\u0440\u0456\u044F",
+    "LastName": "\u0411\u0435\u0437\u0443\u0448\u043A\u043E",
+    "DOB": null,
+    "Phone": "",
+    "Email": "mashka@gmail.com",
+    "ResumeIds": []
+  },
+  {
+    "Id": "427ce12d-ac8a-4f85-9d91-c5def85fdb47",
+    "FirstName": "\u0414\u0430\u043D\u0456\u0435\u043B\u044C",
+    "LastName": "\u0404\u0432\u0442\u0443\u0448\u0435\u043D\u043A\u043E",
+    "DOB": null,
+    "Phone": "",
+    "Email": "evtushenko@gmail.com",
+    "ResumeIds": []
+  },
+  {
+    "Id": "a0966508-6d87-468d-904d-429b41788c3a",
+    "FirstName": "\u0421\u0430\u0448\u0430 ",
+    "LastName": "\u0412\u0430\u043B\u0443\u0454\u0432",
+    "DOB": null,
+    "Phone": "",
+    "Email": "valyev@ukrnet.com",
+    "ResumeIds": []
+  }
+]
