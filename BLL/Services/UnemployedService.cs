@@ -47,16 +47,34 @@ namespace BLL.Services
         ///////////////////////  4.2  ////////////////////////////
         public IEnumerable<UnemployedModel> Search(string keyword)
         {
-            keyword = keyword?.ToLower() ?? "";
+            if (string.IsNullOrWhiteSpace(keyword))
+                return Enumerable.Empty<UnemployedModel>();
+
+            keyword = keyword.ToLower();
 
             return _repository.GetAll()
                 .Where(u =>
                     (!string.IsNullOrEmpty(u.FirstName) && u.FirstName.ToLower().Contains(keyword)) ||
                     (!string.IsNullOrEmpty(u.LastName) && u.LastName.ToLower().Contains(keyword)) ||
-                    (!string.IsNullOrEmpty(u.Phone) && u.Phone.ToLower().Contains(keyword)) ||
                     (!string.IsNullOrEmpty(u.Email) && u.Email.ToLower().Contains(keyword))
                 )
                 .Select(UnemployedMapper.ToModel);
         }
+
+
+        public IEnumerable<UnemployedModel> GetSortedByFirstName()
+        {
+            return _repository.GetAll()
+                .OrderBy(u => u.FirstName)
+                .Select(UnemployedMapper.ToModel);
+        }
+
+        public IEnumerable<UnemployedModel> GetSortedByLastName()
+        {
+            return _repository.GetAll()
+                .OrderBy(u => u.LastName)
+                .Select(UnemployedMapper.ToModel);
+        }
+
     }
 }

@@ -12,6 +12,7 @@ C:\Users\artem\source\repos\Coursework\PL\obj\Debug\net8.0\PL.GeneratedMSBuildEd
 C:\Users\artem\source\repos\Coursework\PL\obj\Debug\net8.0\PL.AssemblyInfoInputs.cache
 C:\Users\artem\source\repos\Coursework\PL\obj\Debug\net8.0\PL.AssemblyInfo.cs
 C:\Users\artem\source\repos\Coursework\PL\obj\Debug\net8.0\PL.csproj.CoreCompileInputs.cache
+C:\Users\artem\source\repos\Coursework\PL\obj\Debug\net8.0\PL.sourcelink.json
 C:\Users\artem\source\repos\Coursework\PL\obj\Debug\net8.0\PL.csproj.Up2Date
 C:\Users\artem\source\repos\Coursework\PL\obj\Debug\net8.0\PL.dll
 C:\Users\artem\source\repos\Coursework\PL\obj\Debug\net8.0\refint\PL.dll

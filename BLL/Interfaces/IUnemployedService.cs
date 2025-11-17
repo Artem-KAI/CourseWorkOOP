@@ -9,5 +9,11 @@ namespace BLL.Interfaces
         void Add(UnemployedModel model);
         void Update(UnemployedModel model);
         void Delete(Guid id);
+
+        IEnumerable<UnemployedModel> Search(string keyword);
+
+        IEnumerable<UnemployedModel> GetSortedByFirstName();
+        IEnumerable<UnemployedModel> GetSortedByLastName();
+
     }
 }

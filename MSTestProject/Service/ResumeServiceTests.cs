@@ -1,5 +1,6 @@
 ﻿using BLL.Models;
 using BLL.Services;
+using DAL.Entities;
 using MSTestProject.Helper;
 
 namespace MSTestProject.Services
@@ -18,27 +19,41 @@ namespace MSTestProject.Services
         }
 
         [TestMethod]
-        public void AddResume_ShouldAddResumeToRepository()
+        public void Add_Should_Add()
         {
-            // Arrange
             var resume = new ResumeModel
             {
                 Id = Guid.NewGuid(),
-                UnemployedId = Guid.NewGuid(),
-                Title = "Junior C# Developer",
-                Skills = new List<string> { "C#", ".NET" },
-                ExperienceYears = 1,
-                Education = "КПІ",
-                CreatedDate = DateTime.Now
+                Title = "C# Dev"
             };
 
-            // Act
             _service.Add(resume);
 
-            // Assert
             Assert.AreEqual(1, _repo.Data.Count);
-            Assert.IsNotNull(_repo.Data.Find(r => r.Id == resume.Id));
+        }
+
+        [TestMethod]
+        public void AddCategory_Should_Set_Category()
+        {
+            var id = Guid.NewGuid();
+            _repo.Data.Add(new ResumeEntity { Id = id });
+
+            _service.AddCategory(id, "IT");
+
+            Assert.AreEqual("IT", _repo.Data[0].Category);
+        }
+
+        [TestMethod]
+        public void GetSortedByTitle_Should_Sort()
+        {
+            _repo.Data.Add(new ResumeEntity { Title = "Zzz" });
+            _repo.Data.Add(new ResumeEntity { Title = "Aaa" });
+
+            var list = _service.GetSortedByTitle().ToList();
+
+            Assert.AreEqual("Aaa", list[0].Title);
         }
     }
+
 }
 

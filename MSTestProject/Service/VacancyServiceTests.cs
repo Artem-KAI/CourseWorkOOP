@@ -1,5 +1,6 @@
 ﻿using BLL.Models;
 using BLL.Services;
+using DAL.Entities;
 using MSTestProject.Helper;
 
 namespace MSTestProject.Services
@@ -79,5 +80,28 @@ namespace MSTestProject.Services
             // Assert
             Assert.AreEqual(0, _repo.Data.Count);
         }
+
+        [TestMethod]
+        public void GetSortedByCategory_Should_Sort()
+        {
+            _repo.Data.Add(new VacancyEntity { Category = "Z" });
+            _repo.Data.Add(new VacancyEntity { Category = "A" });
+
+            var sorted = _service.GetSortedByCategory().ToList();
+
+            Assert.AreEqual("A", sorted[0].Category);
+        }
+
+        [TestMethod]
+        public void AddCategory_Should_Update_Category()
+        {
+            var id = Guid.NewGuid();
+            _repo.Data.Add(new VacancyEntity { Id = id });
+
+            _service.AddCategory(id, "IT");
+
+            Assert.AreEqual("IT", _repo.Data[0].Category);
+        }
+
     }
 }

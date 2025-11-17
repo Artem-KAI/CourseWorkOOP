@@ -1,4 +1,8 @@
-﻿using PL.Helper;
+﻿using System;
+using System.Linq;
+using PL.Helper;
+using BLL.Models;
+using BLL.Dependency;  
 
 namespace PL.Menus
 {
@@ -14,7 +18,10 @@ namespace PL.Menus
                 Console.WriteLine("2. Додати резюме");
                 Console.WriteLine("3. Редагувати резюме");
                 Console.WriteLine("4. Видалити резюме");
-                Console.WriteLine("5. Пошук резюме по ключовому слову");
+                Console.WriteLine("5. Додати категорію");
+                Console.WriteLine("6. Видалити категорію");
+                Console.WriteLine("7. Сортувати за назвою");
+                Console.WriteLine("8. Сортувати за категорією");
                 Console.WriteLine("0. Назад");
                 Console.Write("Виберіть дію: ");
 
@@ -27,7 +34,10 @@ namespace PL.Menus
                         case "2": AddResume(); break;
                         case "3": EditResume(); break;
                         case "4": DeleteResume(); break;
-                        case "5": SearchResumes(); break;
+                        case "5": AddCategory(); break;
+                        case "6": RemoveCategory(); break;
+                        case "7": SortByTitle(); break;
+                        case "8": SortByCategory(); break;
                         case "0": return;
                         default: Console.WriteLine("Невірний вибір!"); break;
                     }
@@ -36,8 +46,7 @@ namespace PL.Menus
                 {
                     Console.WriteLine($"Помилка: {ex.Message}");
                 }
-
-                Console.WriteLine("Натисніть будь-яку клавішу для продовження...");
+                Console.WriteLine("Натисніть будь-яку клавішу...");
                 Console.ReadKey();
             }
         }
@@ -46,62 +55,73 @@ namespace PL.Menus
         {
             var list = Program.ResumeService.GetAll();
             foreach (var r in list)
-                Console.WriteLine($"{r.Id} | {r.Title} | Кандидат: {r.UnemployedId} | Досвід: {r.ExperienceYears} років");
+                Console.WriteLine($"{r.Id} | {r.Title} | Категорія: {r.Category} | Досвід: {r.ExperienceYears} років | Кандидат: {r.UnemployedId}");
         }
 
         private static void AddResume()
         {
             var title = InputHelper.ReadNonEmptyString("Назва резюме: ");
-            var unemployedId = InputHelper.ReadGuid("Id кандидата (безробітного): ");
-            var experience = InputHelper.ReadNonEmptyString("Досвід роботи (років): ");
+            var unemployedId = InputHelper.ReadGuid("ID безробітного: ");
+            var experience = InputHelper.ReadInt("Досвід (років): ");
 
-            var resume = new BLL.Models.ResumeModel
+            var resume = new ResumeModel
             {
                 Id = Guid.NewGuid(),
                 Title = title,
                 UnemployedId = unemployedId,
-                ExperienceYears = int.TryParse(experience, out var years) ? years : 0
+                ExperienceYears = experience
             };
+
             Program.ResumeService.Add(resume);
-            Console.WriteLine("Резюме додано успішно!");
+            Console.WriteLine("Резюме додано!");
         }
 
         private static void EditResume()
         {
-            var id = InputHelper.ReadGuid("Введіть Id резюме для редагування: ");
+            var id = InputHelper.ReadGuid("ID резюме для редагування: ");
             var r = Program.ResumeService.GetById(id);
 
             r.Title = InputHelper.ReadNonEmptyString($"Назва ({r.Title}): ", r.Title);
-            var exp = InputHelper.ReadNonEmptyString($"Досвід ({r.ExperienceYears}): ", r.ExperienceYears.ToString());
-            r.ExperienceYears = int.TryParse(exp, out var years) ? years : r.ExperienceYears;
+            r.ExperienceYears = InputHelper.ReadInt($"Досвід ({r.ExperienceYears}): ", r.ExperienceYears);
 
             Program.ResumeService.Update(r);
-            Console.WriteLine("Дані резюме оновлено успішно!");
+            Console.WriteLine("Дані оновлено!");
         }
 
         private static void DeleteResume()
         {
-            var id = InputHelper.ReadGuid("Введіть Id резюме для видалення: ");
+            var id = InputHelper.ReadGuid("ID резюме для видалення: ");
             Program.ResumeService.Delete(id);
-            Console.WriteLine("Резюме видалено успішно!");
+            Console.WriteLine("Резюме видалено!");
         }
 
-        private static void SearchResumes()
+        private static void AddCategory()
         {
-            var keyword = InputHelper.ReadNonEmptyString("Введіть ключове слово для пошуку: ");
-            var results = Program.ResumeService.GetAll()
-                .Where(r => r.Title.Contains(keyword, StringComparison.OrdinalIgnoreCase))
-                .ToList();
+            var id = InputHelper.ReadGuid("ID резюме: ");
+            var cat = InputHelper.ReadNonEmptyString("Нова категорія: ");
+            Program.ResumeService.AddCategory(id, cat);
+            Console.WriteLine("Категорію додано!");
+        }
 
-            if (!results.Any())
-            {
-                Console.WriteLine("Резюме за цим ключовим словом не знайдено.");
-                return;
-            }
+        private static void RemoveCategory()
+        {
+            var id = InputHelper.ReadGuid("ID резюме: ");
+            Program.ResumeService.RemoveCategory(id);
+            Console.WriteLine("Категорію видалено!");
+        }
 
-            Console.WriteLine("Результати пошуку:");
-            foreach (var r in results)
-                Console.WriteLine($"{r.Id} | {r.Title} | Кандидат: {r.UnemployedId} | Досвід: {r.ExperienceYears} років");
+        private static void SortByTitle()
+        {
+            var list = Program.ResumeService.GetSortedByTitle();
+            foreach (var r in list)
+                Console.WriteLine($"{r.Id} | {r.Title} | {r.Category}");
+        }
+
+        private static void SortByCategory()
+        {
+            var list = Program.ResumeService.GetSortedByCategory();
+            foreach (var r in list)
+                Console.WriteLine($"{r.Id} | {r.Title} | {r.Category}");
         }
     }
 }

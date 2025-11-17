@@ -1,13 +1,13 @@
-﻿using BLL.Dependency;
+﻿using System;
+using System.Text;
+using BLL.Dependency;
 using BLL.Interfaces;
 using PL.Menus;
-using System.Text;
 
 namespace PL
 {
     internal class Program
     {
-        // Сервіси доступні глобально в PL через ServiceFactory
         public static IVacancyService VacancyService { get; private set; } = null!;
         public static IResumeService ResumeService { get; private set; } = null!;
         public static IUnemployedService UnemployedService { get; private set; } = null!;
@@ -16,49 +16,36 @@ namespace PL
         private static void Main(string[] args)
         {
             Console.OutputEncoding = Encoding.UTF8;
-            Console.InputEncoding = Encoding.UTF8;
-            // Ініціалізація сервісів через фабрику
-            VacancyService = ServiceFactory.CreateVacancyService();
-            ResumeService = ServiceFactory.CreateResumeService();
-            UnemployedService = ServiceFactory.CreateUnemployedService();
-            EmployerService = ServiceFactory.CreateEmployerService();
 
-            ShowMainMenu();
-        }
+            VacancyService = ServiceFactory.GetVacancyService();
+            ResumeService = ServiceFactory.GetResumeService();
+            UnemployedService = ServiceFactory.GetUnemployedService();
+            EmployerService = ServiceFactory.GetEmployerService();
 
-        private static void ShowMainMenu()
-        {
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("=== Біржа праці - Головне меню ===");
-                Console.WriteLine("1. Управління безробітними");
-                Console.WriteLine("2. Управління резюме");
-                Console.WriteLine("3. Управління вакансіями");
-                Console.WriteLine("4. Управління замовниками (фірми)");
+                Console.WriteLine("=== Головне меню ===");
+                Console.WriteLine("1. Вакансії");
+                Console.WriteLine("2. Резюме");
+                Console.WriteLine("3. Безробітні");
+                Console.WriteLine("4. Роботодавці");
                 Console.WriteLine("0. Вихід");
-                Console.Write("Виберіть дію: ");
 
+                Console.Write("Виберіть дію: ");
                 var choice = Console.ReadLine();
 
-                try
+                switch (choice)
                 {
-                    switch (choice)
-                    {
-                        case "1": UnemployedMenu.ShowMenu(); break;
-                        case "2": ResumeMenu.ShowMenu(); break;
-                        case "3": VacancyMenu.ShowMenu(); break;
-                        case "4": EmployerMenu.ShowMenu(); break;
-                        case "0": return;
-                        default: Console.WriteLine("Невірний вибір!"); break;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    Console.WriteLine($"Помилка: {ex.Message}");
+                    case "1": VacancyMenu.ShowMenu(); break;
+                    case "2": ResumeMenu.ShowMenu(); break;
+                    case "3": UnemployedMenu.ShowMenu(); break;
+                    case "4": EmployerMenu.ShowMenu(); break;
+                    case "0": return;
+                    default: Console.WriteLine("Некоректний вибір."); break;
                 }
 
-                Console.WriteLine("Натисніть будь-яку клавішу для продовження...");
+                Console.WriteLine("Натисніть будь-яку клавішу...");
                 Console.ReadKey();
             }
         }

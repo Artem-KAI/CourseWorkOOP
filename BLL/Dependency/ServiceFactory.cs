@@ -33,5 +33,13 @@ namespace BLL.Dependency
             IEmployerRepository repo = new EmployerRepository(_context);
             return new EmployerService(repo);
         }
+
+        // ----------------------------
+        // ✨ АЛІАСИ ДЛЯ PL
+        // ----------------------------
+        public static IVacancyService GetVacancyService() => CreateVacancyService();
+        public static IResumeService GetResumeService() => CreateResumeService();
+        public static IUnemployedService GetUnemployedService() => CreateUnemployedService();
+        public static IEmployerService GetEmployerService() => CreateEmployerService();
     }
 }

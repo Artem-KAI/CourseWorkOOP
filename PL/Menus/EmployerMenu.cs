@@ -1,4 +1,7 @@
-﻿using PL.Helper;
+﻿using System;
+using PL.Helper;
+using BLL.Dependency;
+using BLL.Models;
 
 namespace PL.Menus
 {
@@ -9,11 +12,13 @@ namespace PL.Menus
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("=== Управління замовниками (фірми) ===");
-                Console.WriteLine("1. Переглянути всіх замовників");
-                Console.WriteLine("2. Додати замовника");
-                Console.WriteLine("3. Редагувати замовника");
-                Console.WriteLine("4. Видалити замовника");
+                Console.WriteLine("=== Управління роботодавцями ===");
+                Console.WriteLine("1. Переглянути всіх");
+                Console.WriteLine("2. Додати");
+                Console.WriteLine("3. Редагувати");
+                Console.WriteLine("4. Видалити");
+                Console.WriteLine("5. Сортувати за ім’ям");
+                Console.WriteLine("6. Сортувати за прізвищем");
                 Console.WriteLine("0. Назад");
                 Console.Write("Виберіть дію: ");
 
@@ -26,6 +31,8 @@ namespace PL.Menus
                         case "2": AddEmployer(); break;
                         case "3": EditEmployer(); break;
                         case "4": DeleteEmployer(); break;
+                        case "5": SortByFirstname(); break;
+                        case "6": SortByLastname(); break;
                         case "0": return;
                         default: Console.WriteLine("Невірний вибір!"); break;
                     }
@@ -35,7 +42,7 @@ namespace PL.Menus
                     Console.WriteLine($"Помилка: {ex.Message}");
                 }
 
-                Console.WriteLine("Натисніть будь-яку клавішу для продовження...");
+                Console.WriteLine("Натисніть будь-яку клавішу...");
                 Console.ReadKey();
             }
         }
@@ -44,48 +51,58 @@ namespace PL.Menus
         {
             var list = Program.EmployerService.GetAll();
             foreach (var e in list)
-                Console.WriteLine($"{e.Id} | {e.FirstName} {e.LastName} | {e.CompanyName} | Email: {e.Email}");
+                Console.WriteLine($"{e.Id} | {e.FirstName} {e.LastName} | Email: {e.Email}");
         }
 
         private static void AddEmployer()
         {
-            var firstName = InputHelper.ReadNonEmptyString("Ім'я: ");
+            var firstName = InputHelper.ReadNonEmptyString("Ім’я: ");
             var lastName = InputHelper.ReadNonEmptyString("Прізвище: ");
-            var company = InputHelper.ReadNonEmptyString("Назва компанії: ");
             var email = InputHelper.ReadEmail("Email: ");
 
-            var employer = new BLL.Models.EmployerModel
+            var emp = new EmployerModel
             {
                 Id = Guid.NewGuid(),
                 FirstName = firstName,
                 LastName = lastName,
-                CompanyName = company,
                 Email = email
             };
-
-            Program.EmployerService.Add(employer);
-            Console.WriteLine("Замовника додано успішно!");
+            Program.EmployerService.Add(emp);
+            Console.WriteLine("Роботодавця додано!");
         }
 
         private static void EditEmployer()
         {
-            var id = InputHelper.ReadGuid("Введіть Id замовника для редагування: ");
-            var e = Program.EmployerService.GetById(id);
+            var id = InputHelper.ReadGuid("ID для редагування: ");
+            var emp = Program.EmployerService.GetById(id);
 
-            e.FirstName = InputHelper.ReadNonEmptyString($"Ім'я ({e.FirstName}): ", e.FirstName);
-            e.LastName = InputHelper.ReadNonEmptyString($"Прізвище ({e.LastName}): ", e.LastName);
-            e.CompanyName = InputHelper.ReadNonEmptyString($"Компанія ({e.CompanyName}): ", e.CompanyName);
-            e.Email = InputHelper.ReadEmail($"Email ({e.Email}): ", e.Email);
+            emp.FirstName = InputHelper.ReadNonEmptyString($"Ім’я ({emp.FirstName}): ", emp.FirstName);
+            emp.LastName = InputHelper.ReadNonEmptyString($"Прізвище ({emp.LastName}): ", emp.LastName);
+            emp.Email = InputHelper.ReadEmail($"Email ({emp.Email}): ", emp.Email);
 
-            Program.EmployerService.Update(e);
-            Console.WriteLine("Дані замовника оновлено успішно!");
+            Program.EmployerService.Update(emp);
+            Console.WriteLine("Оновлено!");
         }
 
         private static void DeleteEmployer()
         {
-            var id = InputHelper.ReadGuid("Введіть Id замовника для видалення: ");
+            var id = InputHelper.ReadGuid("ID для видалення: ");
             Program.EmployerService.Delete(id);
-            Console.WriteLine("Замовника видалено успішно!");
+            Console.WriteLine("Видалено!");
+        }
+
+        private static void SortByFirstname()
+        {
+            var list = Program.EmployerService.GetSortedByFirstName();
+            foreach (var e in list)
+                Console.WriteLine($"{e.Id} | {e.FirstName} {e.LastName} | {e.Email}");
+        }
+
+        private static void SortByLastname()
+        {
+            var list = Program.EmployerService.GetSortedByLastName();
+            foreach (var e in list)
+                Console.WriteLine($"{e.Id} | {e.FirstName} {e.LastName} | {e.Email}");
         }
     }
 }

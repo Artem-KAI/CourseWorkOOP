@@ -9,5 +9,8 @@ namespace BLL.Interfaces
         void Add(EmployerModel model);
         void Update(EmployerModel model);
         void Delete(Guid id);
+
+        IEnumerable<EmployerModel> GetSortedByFirstName();
+        IEnumerable<EmployerModel> GetSortedByLastName();
     }
 }

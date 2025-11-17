@@ -10,5 +10,10 @@ namespace BLL.Interfaces
         void Update(VacancyModel model);
         void Delete(Guid id);
         IEnumerable<VacancyModel> GetByCategory(string category);
+
+        void AddCategory(Guid vacancyId, string category);
+        void RemoveCategory(Guid vacancyId);
+        IEnumerable<VacancyModel> GetSortedByTitle();
+        IEnumerable<VacancyModel> GetSortedByCategory();
     }
 }

@@ -5,6 +5,7 @@ C:\Users\artem\source\repos\Coursework\Coursework\obj\Debug\net8.0\DAL.Generated
 C:\Users\artem\source\repos\Coursework\Coursework\obj\Debug\net8.0\DAL.AssemblyInfoInputs.cache
 C:\Users\artem\source\repos\Coursework\Coursework\obj\Debug\net8.0\DAL.AssemblyInfo.cs
 C:\Users\artem\source\repos\Coursework\Coursework\obj\Debug\net8.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\artem\source\repos\Coursework\Coursework\obj\Debug\net8.0\DAL.sourcelink.json
 C:\Users\artem\source\repos\Coursework\Coursework\obj\Debug\net8.0\DAL.dll
 C:\Users\artem\source\repos\Coursework\Coursework\obj\Debug\net8.0\refint\DAL.dll
 C:\Users\artem\source\repos\Coursework\Coursework\obj\Debug\net8.0\DAL.pdb
