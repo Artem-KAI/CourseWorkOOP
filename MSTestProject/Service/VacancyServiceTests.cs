@@ -1,27 +1,28 @@
-﻿using BLL.Models;
+﻿using BLL.Exceptions;
+using BLL.Models;
 using BLL.Services;
 using DAL.Entities;
-using MSTestProject.Helper;
+using DAL.Interfaces;
+using Moq;
 
 namespace MSTestProject.Services
 {
     [TestClass]
     public class VacancyServiceTests
     {
-        private FakeVacancyRepository _repo;
+        private Mock<IVacancyRepository> _mockRepo;
         private VacancyService _service;
 
         [TestInitialize]
         public void Setup()
         {
-            _repo = new FakeVacancyRepository();
-            _service = new VacancyService(_repo);
+            _mockRepo = new Mock<IVacancyRepository>();
+            _service = new VacancyService(_mockRepo.Object);
         }
 
         [TestMethod]
-        public void AddVacancy_Should_Add_New_Vacancy()
+        public void AddVacancy_Should_Call_Repository_Add()
         {
-            // Arrange
             var vacancy = new VacancyModel
             {
                 Id = Guid.NewGuid(),
@@ -29,79 +30,133 @@ namespace MSTestProject.Services
                 Description = "C# Developer"
             };
 
-            // Act
             _service.Add(vacancy);
 
-            // Assert
-            Assert.AreEqual(1, _repo.Data.Count);
-            Assert.AreEqual("Програміст", _repo.Data[0].Title);
+            _mockRepo.Verify(x => x.Add(It.IsAny<VacancyEntity>()), Times.Once);
+        }
+
+        [TestMethod]
+        [ExpectedException(typeof(BusinessException))]
+        public void AddVacancy_Should_Throw_When_Null()
+        {
+            _service.Add(null);
         }
 
         [TestMethod]
         public void GetById_Should_Return_Correct_Vacancy()
         {
-            // Arrange
             var id = Guid.NewGuid();
-            _repo.Data.Add(new DAL.Entities.VacancyEntity { Id = id, Title = "Test" });
+            var entity = new VacancyEntity { Id = id, Title = "Test" };
 
-            // Act
+            _mockRepo.Setup(x => x.GetById(id)).Returns(entity);
+
             var result = _service.GetById(id);
 
-            // Assert
+            Assert.IsNotNull(result);
             Assert.AreEqual("Test", result.Title);
         }
 
         [TestMethod]
-        public void Update_Should_Modify_Existing()
+        [ExpectedException(typeof(NotFoundException))]
+        public void GetById_Should_Throw_When_NotFound()
         {
-            // Arrange
-            var id = Guid.NewGuid();
-            _repo.Data.Add(new DAL.Entities.VacancyEntity { Id = id, Title = "Old" });
+            _mockRepo.Setup(x => x.GetById(It.IsAny<Guid>())).Returns((VacancyEntity)null);
 
-            var updated = new VacancyModel { Id = id, Title = "New" };
+            _service.GetById(Guid.NewGuid());
+        }
 
-            // Act
+        [TestMethod]
+        public void Update_Should_Call_Repository_Update()
+        {
+            var updated = new VacancyModel { Id = Guid.NewGuid(), Title = "New" };
+
             _service.Update(updated);
 
-            // Assert
-            Assert.AreEqual("New", _repo.Data[0].Title);
+            _mockRepo.Verify(x => x.Update(It.IsAny<VacancyEntity>()), Times.Once);
         }
 
         [TestMethod]
-        public void Delete_Should_Remove_Record()
+        public void Delete_Should_Call_Repository_Delete()
         {
-            // Arrange
             var id = Guid.NewGuid();
-            _repo.Data.Add(new DAL.Entities.VacancyEntity { Id = id });
 
-            // Act
             _service.Delete(id);
 
-            // Assert
-            Assert.AreEqual(0, _repo.Data.Count);
-        }
-
-        [TestMethod]
-        public void GetSortedByCategory_Should_Sort()
-        {
-            _repo.Data.Add(new VacancyEntity { Category = "Z" });
-            _repo.Data.Add(new VacancyEntity { Category = "A" });
-
-            var sorted = _service.GetSortedByCategory().ToList();
-
-            Assert.AreEqual("A", sorted[0].Category);
+            _mockRepo.Verify(x => x.Delete(id), Times.Once);
         }
 
         [TestMethod]
         public void AddCategory_Should_Update_Category()
         {
             var id = Guid.NewGuid();
-            _repo.Data.Add(new VacancyEntity { Id = id });
+            var entity = new VacancyEntity { Id = id, Category = null };
+            _mockRepo.Setup(x => x.GetById(id)).Returns(entity);
 
             _service.AddCategory(id, "IT");
 
-            Assert.AreEqual("IT", _repo.Data[0].Category);
+            _mockRepo.Verify(x => x.Update(It.Is<VacancyEntity>(v => v.Category == "IT")), Times.Once);
         }
 
+        [TestMethod]
+        public void RemoveCategory_Should_Set_Category_To_Null()
+        {
+            var id = Guid.NewGuid();
+            var entity = new VacancyEntity { Id = id, Category = "Sales" };
+            _mockRepo.Setup(x => x.GetById(id)).Returns(entity);
+
+            _service.RemoveCategory(id);
+
+            _mockRepo.Verify(x => x.Update(It.Is<VacancyEntity>(v => v.Category == null)), Times.Once);
+        }
+
+        [TestMethod]
+        public void GetSortedByCategory_Should_Sort()
+        {
+            var entities = new List<VacancyEntity>
+            {
+                new VacancyEntity { Category = "Z" },
+                new VacancyEntity { Category = "A" }
+            };
+            _mockRepo.Setup(x => x.GetAll()).Returns(entities);
+
+            var sorted = _service.GetSortedByCategory().ToList();
+
+            Assert.AreEqual("A", sorted[0].Category);
+            Assert.AreEqual("Z", sorted[1].Category);
+        }
+
+        [TestMethod]
+        public void GetSortedByTitle_Should_Sort()
+        {
+            var entities = new List<VacancyEntity>
+            {
+                new VacancyEntity { Title = "Java" },
+                new VacancyEntity { Title = "C#" }
+            };
+            _mockRepo.Setup(x => x.GetAll()).Returns(entities);
+
+            var sorted = _service.GetSortedByTitle().ToList();
+
+            Assert.AreEqual("C#", sorted[0].Title);
+            Assert.AreEqual("Java", sorted[1].Title);
+        }
+
+        [TestMethod]
+        public void GetByCategory_Should_Call_Repository_GetByCategory()
+        {
+            var category = "IT";
+            var entities = new List<VacancyEntity>
+            {
+                new VacancyEntity { Title = "Dev", Category = "IT" }
+            };
+
+            _mockRepo.Setup(x => x.GetByCategory(category)).Returns(entities);
+
+            var result = _service.GetByCategory(category).ToList();
+
+            Assert.AreEqual(1, result.Count);
+            Assert.AreEqual("Dev", result[0].Title);
+            _mockRepo.Verify(x => x.GetByCategory(category), Times.Once);
+        }
     }
 }

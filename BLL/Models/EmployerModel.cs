@@ -12,3 +12,4 @@
         public List<Guid> VacancyIds { get; set; } = new List<Guid>();
     }
 }
+ 

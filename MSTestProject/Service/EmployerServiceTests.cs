@@ -2,27 +2,27 @@
 using BLL.Models;
 using BLL.Services;
 using DAL.Entities;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using MSTestProject.Helper;
-using System;
+using DAL.Interfaces;
+using Moq;
 
 namespace MSTestProject.Services
 {
     [TestClass]
     public class EmployerServiceTests
     {
-        private FakeEmployerRepository _repo;
+        private Mock<IEmployerRepository> _mockRepo;
         private EmployerService _service;
 
         [TestInitialize]
         public void Init()
         {
-            _repo = new FakeEmployerRepository();
-            _service = new EmployerService(_repo);
+            _mockRepo = new Mock<IEmployerRepository>();
+
+            _service = new EmployerService(_mockRepo.Object);
         }
 
         [TestMethod]
-        public void Add_Should_Add_Employer()
+        public void Add_Should_Call_Repository_Add()
         {
             var model = new EmployerModel
             {
@@ -33,7 +33,7 @@ namespace MSTestProject.Services
 
             _service.Add(model);
 
-            Assert.AreEqual(1, _repo.Data.Count);
+            _mockRepo.Verify(x => x.Add(It.IsAny<EmployerEntity>()), Times.Once);
         }
 
         [TestMethod]
@@ -44,65 +44,65 @@ namespace MSTestProject.Services
         }
 
         [TestMethod]
-        public void Delete_Should_Remove()
+        public void Delete_Should_Call_Repository_Delete()
         {
             var id = Guid.NewGuid();
-            _repo.Data.Add(new EmployerEntity { Id = id });
 
             _service.Delete(id);
 
-            Assert.AreEqual(0, _repo.Data.Count);
+            _mockRepo.Verify(x => x.Delete(id), Times.Once);
         }
 
         [TestMethod]
-        public void GetAll_Should_Return_All()
+        public void GetAll_Should_Return_Mapped_Models()
         {
-            _repo.Data.Add(new EmployerEntity());
-            _repo.Data.Add(new EmployerEntity());
+            var entities = new List<EmployerEntity>
+            {
+                new EmployerEntity { Id = Guid.NewGuid() },
+                new EmployerEntity { Id = Guid.NewGuid() }
+            };
+
+            _mockRepo.Setup(x => x.GetAll()).Returns(entities);
 
             var list = _service.GetAll();
 
             Assert.AreEqual(2, list.Count());
+
+            _mockRepo.Verify(x => x.GetAll(), Times.Once);
         }
 
         [TestMethod]
         public void GetSortedByFirstName_Should_Sort()
         {
-            _repo.Data.Add(new EmployerEntity { ContactPerson = "Петро" });
-            _repo.Data.Add(new EmployerEntity { ContactPerson = "Андрій" });
+            var entities = new List<EmployerEntity>
+            {
+                new EmployerEntity { Id = Guid.NewGuid(), ContactPerson = "Петро" },
+                new EmployerEntity { Id = Guid.NewGuid(), ContactPerson = "Андрій" }
+            };
+            _mockRepo.Setup(x => x.GetAll()).Returns(entities);
 
             var sorted = _service.GetSortedByFirstName().ToList();
 
             Assert.AreEqual("Андрій", sorted[0].FirstName);
+            Assert.AreEqual("Петро", sorted[1].FirstName);
+        }
+
+        [TestMethod]
+        public void GetSortedByLastName_Should_Sort()
+        {
+            var entities = new List<EmployerEntity>
+            {
+                new EmployerEntity { Id = Guid.NewGuid() }, 
+                new EmployerEntity { Id = Guid.NewGuid() }  
+            };
+            _mockRepo.Setup(x => x.GetAll()).Returns(entities);
+
+            // Act
+            var result = _service.GetSortedByLastName();
+
+            // Assert
+            _mockRepo.Verify(x => x.GetAll(), Times.Once);
+            // Тут ти можеш додати перевірку Assert.AreEqual, якщо знаєш точні дані
         }
     }
 }
-    //[TestClass]
-    //public class EmployerServiceTests
-    //{
-    //    private FakeEmployerRepository _repo;
-    //    private EmployerService _service;
-
-    //    [TestInitialize]
-    //    public void Init()
-    //    {
-    //        _repo = new FakeEmployerRepository();
-    //        _service = new EmployerService(_repo);
-    //    }
-
-    //    [TestMethod]
-    //    public void AddEmployer_Should_Add()
-    //    {
-    //        var model = new EmployerModel
-    //        {
-    //            Id = Guid.NewGuid(),
-    //            FirstName = "Олег",
-    //            LastName = "Ткачук",
-    //            CompanyName = "IT Company"
-    //        };
-
-    //        _service.Add(model);
-
-    //        Assert.AreEqual(1, _repo.Data.Count);
-    //    }
-

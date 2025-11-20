@@ -2,87 +2,82 @@
 using BLL.Models;
 using BLL.Services;
 using DAL.Entities;
-using MSTestProject.Helper;
+using DAL.Interfaces;
+using Moq;
 
 namespace MSTestProject.Services
 {
     [TestClass]
     public class UnemployedServiceTests
     {
-        private FakeUnemployedRepository _repo;
+        private Mock<IUnemployedRepository> _mockRepo;
         private UnemployedService _service;
 
         [TestInitialize]
         public void Init()
         {
-            _repo = new FakeUnemployedRepository();
-            _service = new UnemployedService(_repo);
+            _mockRepo = new Mock<IUnemployedRepository>();
+            _service = new UnemployedService(_mockRepo.Object);
         }
 
         [TestMethod]
-        public void Add_Should_Add_Unemployed()
+        public void Add_Should_Call_Repository_Add()
         {
-            // Arrange
             var model = new UnemployedModel
             {
                 Id = Guid.NewGuid(),
                 FirstName = "Петро"
             };
 
-            // Act
             _service.Add(model);
 
-            // Assert
-            Assert.AreEqual(1, _repo.Data.Count);
+            _mockRepo.Verify(x => x.Add(It.IsAny<UnemployedEntity>()), Times.Once);
         }
 
         [TestMethod]
         [ExpectedException(typeof(BusinessException))]
         public void Add_Should_Throw_When_Null()
         {
-            // Act
             _service.Add(null);
         }
 
         [TestMethod]
-        public void Delete_Should_Remove()
+        public void Delete_Should_Call_Repository_Delete()
         {
-            // Arrange
             var id = Guid.NewGuid();
-            _repo.Data.Add(new UnemployedEntity { Id = id });
 
-            // Act
             _service.Delete(id);
 
-            // Assert
-            Assert.AreEqual(0, _repo.Data.Count);
+            _mockRepo.Verify(x => x.Delete(id), Times.Once);
         }
 
         [TestMethod]
-        public void GetAll_Should_Return_All()
+        public void GetAll_Should_Return_All_Mapped()
         {
-            // Arrange
-            _repo.Data.Add(new UnemployedEntity { Id = Guid.NewGuid() });
-            _repo.Data.Add(new UnemployedEntity { Id = Guid.NewGuid() });
+            var entities = new List<UnemployedEntity>
+            {
+                new UnemployedEntity { Id = Guid.NewGuid() },
+                new UnemployedEntity { Id = Guid.NewGuid() }
+            };
+            _mockRepo.Setup(x => x.GetAll()).Returns(entities);
 
-            // Act
             var list = _service.GetAll();
 
-            // Assert
             Assert.AreEqual(2, list.Count());
+            _mockRepo.Verify(x => x.GetAll(), Times.Once);
         }
 
         [TestMethod]
-        public void GetById_Should_Return_Correct()
+        public void GetById_Should_Return_Correct_Model()
         {
-            // Arrange
             var id = Guid.NewGuid();
-            _repo.Data.Add(new UnemployedEntity { Id = id, FirstName = "Іван" });
+            var entity = new UnemployedEntity { Id = id, FirstName = "Іван" };
 
-            // Act
+            _mockRepo.Setup(x => x.GetById(id)).Returns(entity);
+
             var result = _service.GetById(id);
 
-            // Assert
+            Assert.IsNotNull(result);
             Assert.AreEqual("Іван", result.FirstName);
         }
 
@@ -90,24 +85,19 @@ namespace MSTestProject.Services
         [ExpectedException(typeof(NotFoundException))]
         public void GetById_Should_Throw_When_NotFound()
         {
-            // Act
+            _mockRepo.Setup(x => x.GetById(It.IsAny<Guid>())).Returns((UnemployedEntity)null);
+
             _service.GetById(Guid.NewGuid());
         }
 
         [TestMethod]
-        public void Update_Should_Modify()
+        public void Update_Should_Call_Repository_Update()
         {
-            // Arrange
-            var id = Guid.NewGuid();
-            _repo.Data.Add(new UnemployedEntity { Id = id, FirstName = "Old" });
+            var updated = new UnemployedModel { Id = Guid.NewGuid(), FirstName = "New" };
 
-            var updated = new UnemployedModel { Id = id, FirstName = "New" };
-
-            // Act
             _service.Update(updated);
 
-            // Assert
-            Assert.AreEqual("New", _repo.Data.First().FirstName);
+            _mockRepo.Verify(x => x.Update(It.IsAny<UnemployedEntity>()), Times.Once);
         }
 
         [TestMethod]
@@ -120,12 +110,17 @@ namespace MSTestProject.Services
         [TestMethod]
         public void Search_Should_Find_By_FirstName()
         {
-            _repo.Data.Add(new UnemployedEntity { Id = Guid.NewGuid(), FirstName = "Антон" });
-            _repo.Data.Add(new UnemployedEntity { Id = Guid.NewGuid(), FirstName = "Артем" });
+            var entities = new List<UnemployedEntity>
+            {
+                new UnemployedEntity { Id = Guid.NewGuid(), FirstName = "Антон" },
+                new UnemployedEntity { Id = Guid.NewGuid(), FirstName = "Артем" }
+            };
+            _mockRepo.Setup(x => x.GetAll()).Returns(entities);
 
             var result = _service.Search("Артем");
 
             Assert.AreEqual(1, result.Count());
+            Assert.AreEqual("Артем", result.First().FirstName);
         }
 
         [TestMethod]
@@ -134,29 +129,40 @@ namespace MSTestProject.Services
             var result = _service.Search("");
 
             Assert.AreEqual(0, result.Count());
+
+            _mockRepo.Verify(x => x.GetAll(), Times.Never);
         }
 
         [TestMethod]
         public void SortByFirstName_Should_Work()
         {
-            _repo.Data.Add(new UnemployedEntity { FirstName = "Петро" });
-            _repo.Data.Add(new UnemployedEntity { FirstName = "Антон" });
+            var entities = new List<UnemployedEntity>
+            {
+                new UnemployedEntity { FirstName = "Петро" },
+                new UnemployedEntity { FirstName = "Антон" }
+            };
+            _mockRepo.Setup(x => x.GetAll()).Returns(entities);
 
             var result = _service.GetSortedByFirstName().ToList();
 
             Assert.AreEqual("Антон", result[0].FirstName);
+            Assert.AreEqual("Петро", result[1].FirstName);
         }
 
         [TestMethod]
         public void SortByLastName_Should_Work()
         {
-            _repo.Data.Add(new UnemployedEntity { LastName = "Яровий" });
-            _repo.Data.Add(new UnemployedEntity { LastName = "Андрух" });
+            var entities = new List<UnemployedEntity>
+            {
+                new UnemployedEntity { LastName = "Яровий" },
+                new UnemployedEntity { LastName = "Андрух" }
+            };
+            _mockRepo.Setup(x => x.GetAll()).Returns(entities);
 
             var result = _service.GetSortedByLastName().ToList();
 
             Assert.AreEqual("Андрух", result[0].LastName);
+            Assert.AreEqual("Яровий", result[1].LastName);
         }
     }
-
 }
