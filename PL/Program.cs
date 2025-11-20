@@ -1,5 +1,4 @@
-﻿using System;
-using System.Text;
+﻿using System.Text;
 using BLL.Dependency;
 using BLL.Interfaces;
 using PL.Menus;
@@ -45,7 +44,7 @@ namespace PL
                     default: Console.WriteLine("Некоректний вибір."); break;
                 }
 
-                Console.WriteLine("Натисніть будь-яку клавішу...");
+                Console.WriteLine("Натисніть будь яку клавішу");
                 Console.ReadKey();
             }
         }

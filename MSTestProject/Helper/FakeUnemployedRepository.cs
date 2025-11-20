@@ -7,9 +7,15 @@ namespace MSTestProject.Helper
     {
         public List<UnemployedEntity> Data { get; } = new List<UnemployedEntity>();
 
-        public IEnumerable<UnemployedEntity> GetAll() => Data;
+        public IEnumerable<UnemployedEntity> GetAll()
+        {
+            return Data;
+        }
 
-        public UnemployedEntity GetById(Guid id) => Data.FirstOrDefault(x => x.Id == id);
+        public UnemployedEntity GetById(Guid id)
+        {
+            return Data.FirstOrDefault(x => x.Id == id);
+        }
 
         public void Add(UnemployedEntity item) => Data.Add(item);
 
@@ -23,6 +29,5 @@ namespace MSTestProject.Helper
 
         public IEnumerable<UnemployedEntity> Find(Func<UnemployedEntity, bool> predicate) => Data.Where(predicate);
 
-        // якщо у IUnemployedRepository є додаткові специфічні методи — додай їх тут
     }
 }

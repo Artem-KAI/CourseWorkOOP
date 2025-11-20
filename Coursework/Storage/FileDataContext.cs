@@ -16,12 +16,10 @@ namespace DAL.Storage
         {
             _settings = settings ?? throw new ArgumentNullException(nameof(settings));
 
-            // Створюємо папку для зберігання файлів, якщо не існує
             if (!Directory.Exists(_settings.DataFolder))
                 Directory.CreateDirectory(_settings.DataFolder);
         }
 
-        // Метод завантаження списку сутностей з JSON файлу
         public List<T> LoadList<T>(string fileName)
         {
             if (string.IsNullOrEmpty(fileName))
@@ -29,7 +27,7 @@ namespace DAL.Storage
 
             string path = Path.Combine(_settings.DataFolder, fileName);
             if (!File.Exists(path))
-                return new List<T>(); // якщо файл не існує, повертаємо пустий список
+                return new List<T>(); 
 
             try
             {
@@ -43,7 +41,6 @@ namespace DAL.Storage
             }
         }
 
-        // Метод збереження списку сутностей у JSON файл
         public void SaveList<T>(string fileName, List<T> items)
         {
             if (string.IsNullOrEmpty(fileName))

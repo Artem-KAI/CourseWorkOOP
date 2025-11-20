@@ -22,7 +22,6 @@ namespace DAL.Repositories
         {
             lock (_lock)
             {
-                // повертаємо копію щоб уникнути зовнішніх модифікацій
                 return Items.Select(x => x).ToList();
             }
         }

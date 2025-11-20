@@ -1,8 +1,6 @@
-﻿using System;
-using System.Linq;
+﻿using BLL.Models;
 using PL.Helper;
-using BLL.Models;
-using BLL.Dependency;  
+using System.Text;
 
 namespace PL.Menus
 {
@@ -10,6 +8,8 @@ namespace PL.Menus
     {
         public static void ShowMenu()
         {
+            Console.OutputEncoding = Encoding.UTF8;
+
             while (true)
             {
                 Console.Clear();
@@ -46,7 +46,7 @@ namespace PL.Menus
                 {
                     Console.WriteLine($"Помилка: {ex.Message}");
                 }
-                Console.WriteLine("Натисніть будь-яку клавішу...");
+                Console.WriteLine("Натисніть будь яку клавішу");
                 Console.ReadKey();
             }
         }

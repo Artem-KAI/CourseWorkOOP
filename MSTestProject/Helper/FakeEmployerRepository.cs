@@ -7,7 +7,10 @@ namespace MSTestProject.Helper
     {
         public List<EmployerEntity> Data { get; } = new();
 
-        public void Add(EmployerEntity item) => Data.Add(item);
+        public void Add(EmployerEntity item)
+        {
+            Data.Add(item);
+        } 
 
         public void Update(EmployerEntity item)
         {
@@ -25,15 +28,22 @@ namespace MSTestProject.Helper
             if (item != null) Data.Remove(item);
         }
 
-        public EmployerEntity GetById(Guid id) =>
-            Data.FirstOrDefault(x => x.Id == id);
+        public EmployerEntity GetById(Guid id)
+        {
+            return Data.FirstOrDefault(x => x.Id == id);
+        }
 
-        public IEnumerable<EmployerEntity> GetAll() => Data;
+        public IEnumerable<EmployerEntity> GetAll()
+        {
+            return Data;
+        }
 
-        public IEnumerable<EmployerEntity> Find(Func<EmployerEntity, bool> predicate) =>
-            Data.Where(predicate);
+        public IEnumerable<EmployerEntity> Find(Func<EmployerEntity, bool> predicate)
+        {
+            return Data.Where(predicate);
+        } 
 
-        // 🔥 Обов’язковий метод з інтерфейсу
+        // Обовязковий метод з інтерфейсу
         public IEnumerable<EmployerEntity> FindByCompanyName(string namePart)
         {
             if (string.IsNullOrWhiteSpace(namePart))

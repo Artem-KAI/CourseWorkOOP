@@ -7,9 +7,15 @@ namespace MSTestProject.Helper
     {
         public List<ResumeEntity> Data { get; } = new List<ResumeEntity>();
 
-        public IEnumerable<ResumeEntity> GetAll() => Data;
+        public IEnumerable<ResumeEntity> GetAll()
+        {
+            return Data;
+        }
 
-        public ResumeEntity GetById(Guid id) => Data.FirstOrDefault(x => x.Id == id);
+        public ResumeEntity GetById(Guid id)
+        { 
+            return Data.FirstOrDefault(x => x.Id == id);
+        }
 
         public void Add(ResumeEntity item) => Data.Add(item);
 

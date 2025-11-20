@@ -1,9 +1,10 @@
 ﻿using DAL.Entities;
 using DAL.Storage;
+using DAL.Interfaces;
 
 namespace DAL.Repositories
 {
-    public class UnemployedRepository : JsonRepositoryBase<UnemployedEntity>, DAL.Interfaces.IUnemployedRepository
+    public class UnemployedRepository : JsonRepositoryBase<UnemployedEntity>, IUnemployedRepository
     {
         private const string FileName = "unemployed.json";
 

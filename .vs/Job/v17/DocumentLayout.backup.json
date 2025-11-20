@@ -3,72 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\artem\\source\\repos\\Coursework\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|c:\\users\\artem\\source\\repos\\coursework\\pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|solutionrelative:pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\services\\resumeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\services\\resumeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\services\\unemployedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\services\\unemployedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\service\\resumeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\service\\resumeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\service\\employerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\service\\employerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\services\\employerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\services\\employerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\interfaces\\iemployerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iemployerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\mappers\\employermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\mappers\\employermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\models\\employermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\models\\employermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\entities\\employerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\entities\\employerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\service\\unemployedservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\service\\unemployedservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\service\\vacancyservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\service\\vacancyservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\helper\\fakeemployerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\helper\\fakeemployerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\helper\\fakeresumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\helper\\fakeresumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\helper\\fakeunemployedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\helper\\fakeunemployedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\helper\\fakevacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\helper\\fakevacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\services\\vacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\services\\vacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|c:\\users\\artem\\source\\repos\\coursework\\pl\\menus\\vacancymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|solutionrelative:pl\\menus\\vacancymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|c:\\users\\artem\\source\\repos\\coursework\\pl\\menus\\unemployedmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,96 +19,120 @@
       "RelativeMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|solutionrelative:pl\\helper\\inputhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|c:\\users\\artem\\source\\repos\\coursework\\pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|solutionrelative:pl\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|c:\\users\\artem\\source\\repos\\coursework\\pl\\menus\\vacancymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|solutionrelative:pl\\menus\\vacancymenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|c:\\users\\artem\\source\\repos\\coursework\\pl\\menus\\resumemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|solutionrelative:pl\\menus\\resumemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|c:\\users\\artem\\source\\repos\\coursework\\pl\\menus\\employermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|solutionrelative:pl\\menus\\employermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\interfaces\\iunemployedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iunemployedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\interfaces\\ivacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\ivacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\interfaces\\iresumeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iresumeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\dependency\\servicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\dependency\\servicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|c:\\users\\artem\\source\\repos\\coursework\\pl\\pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|solutionrelative:pl\\pl.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\storage\\filedatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\storage\\filedatacontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\exceptions\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\exceptions\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|c:\\users\\artem\\source\\repos\\coursework\\pl\\menus\\employermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|solutionrelative:pl\\menus\\employermenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\exceptions\\limitexceededexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\exceptions\\limitexceededexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|c:\\users\\artem\\source\\repos\\coursework\\pl\\menus\\resumemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CF7567F-C44C-442C-BDB8-9C7AC9630D1F}|PL\\PL.csproj|solutionrelative:pl\\menus\\resumemenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\bll.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\entities\\employerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\entities\\employerentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\helper\\fakeemployerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\helper\\fakeemployerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\helper\\fakevacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\helper\\fakevacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\helper\\fakeunemployedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\helper\\fakeunemployedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\helper\\fakeresumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\helper\\fakeresumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\dependency\\servicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\dependency\\servicefactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\services\\unemployedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\services\\unemployedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\services\\vacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\services\\vacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\services\\employerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\services\\employerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\interfaces\\ivacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\ivacancyservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\interfaces\\iunemployedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iunemployedservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\interfaces\\iresumeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iresumeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\interfaces\\iemployerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\interfaces\\iemployerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\mappers\\resumemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\mappers\\resumemapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\interfaces\\ivacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\interfaces\\ivacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\mappers\\unemployedmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\mappers\\unemployedmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\interfaces\\iunemployedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\interfaces\\iunemployedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\mappers\\employermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\mappers\\employermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\interfaces\\iresumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\interfaces\\iresumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\models\\vacancymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\models\\vacancymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\interfaces\\iemployerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\interfaces\\iemployerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\models\\unemployedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\models\\unemployedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\models\\resumemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\models\\resumemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\models\\employermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\models\\employermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\repositories\\resumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\repositories\\resumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\interfaces\\iunemployedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\interfaces\\iunemployedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\interfaces\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\interfaces\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\entities\\unemployedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\entities\\unemployedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\models\\resumemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\models\\resumemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\interfaces\\ivacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\interfaces\\ivacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\repositories\\vacancyrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -179,12 +143,24 @@
       "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\repositories\\unemployedrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\repositories\\resumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\repositories\\resumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\repositories\\jsonrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\repositories\\jsonrepositorybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\repositories\\employerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\repositories\\employerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\interfaces\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\interfaces\\ientity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\interfaces\\iemployerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\interfaces\\iemployerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\exceptions\\dataaccessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -199,20 +175,48 @@
       "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\entities\\resumeentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\models\\vacancymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\models\\vacancymodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\entities\\unemployedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\entities\\unemployedentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\models\\unemployedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\models\\unemployedmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\services\\resumeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\services\\resumeservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\exceptions\\notfoundexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\exceptions\\limitexceededexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\exceptions\\limitexceededexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\mappers\\vacancymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\mappers\\vacancymapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\mappers\\unemployedmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\mappers\\unemployedmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|c:\\users\\artem\\source\\repos\\coursework\\bll\\exceptions\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{70660F0A-9768-42B3-8BD1-19EF4CA2CBE9}|BLL\\BLL.csproj|solutionrelative:bll\\exceptions\\businessexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\service\\employerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\service\\employerservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\service\\unemployedservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\service\\unemployedservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\service\\vacancyservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\service\\vacancyservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|c:\\users\\artem\\source\\repos\\coursework\\mstestproject\\service\\resumeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3585FCA0-1740-4797-9C54-3C23C761CB96}|MSTestProject\\MSTestProject.csproj|solutionrelative:mstestproject\\service\\resumeservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|c:\\users\\artem\\source\\repos\\coursework\\coursework\\interfaces\\iresumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B819A64-D3DE-41ED-8498-DFC5233E647B}|Coursework\\DAL.csproj|solutionrelative:coursework\\interfaces\\iresumerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -221,327 +225,116 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedHeight": 579,
+          "DockedHeight": 542,
           "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "VacancyService.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\VacancyService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\VacancyService.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\VacancyService.cs",
-              "RelativeToolTip": "BLL\\Services\\VacancyService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:49:02.487Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ResumeService.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\ResumeService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\ResumeService.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\ResumeService.cs",
-              "RelativeToolTip": "BLL\\Services\\ResumeService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:43:38.655Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UnemployedService.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\UnemployedService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\UnemployedService.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\UnemployedService.cs",
-              "RelativeToolTip": "BLL\\Services\\UnemployedService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:44:34.322Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EmployerService.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\EmployerService.cs",
-              "RelativeDocumentMoniker": "BLL\\Services\\EmployerService.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\EmployerService.cs",
-              "RelativeToolTip": "BLL\\Services\\EmployerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:45:07.967Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EmployerServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\EmployerServiceTests.cs",
-              "RelativeDocumentMoniker": "MSTestProject\\Service\\EmployerServiceTests.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\EmployerServiceTests.cs",
-              "RelativeToolTip": "MSTestProject\\Service\\EmployerServiceTests.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAmwEgAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T14:49:01.899Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DAL.csproj",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\DAL.csproj",
-              "RelativeDocumentMoniker": "Coursework\\DAL.csproj",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\DAL.csproj",
-              "RelativeToolTip": "Coursework\\DAL.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-11-13T19:23:15.555Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ResumeServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\ResumeServiceTests.cs",
-              "RelativeDocumentMoniker": "MSTestProject\\Service\\ResumeServiceTests.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\ResumeServiceTests.cs",
-              "RelativeToolTip": "MSTestProject\\Service\\ResumeServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T13:36:51.066Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IEmployerService.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IEmployerService.cs",
-              "RelativeDocumentMoniker": "BLL\\Interfaces\\IEmployerService.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IEmployerService.cs",
-              "RelativeToolTip": "BLL\\Interfaces\\IEmployerService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:44:55.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "EmployerMapper.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Mappers\\EmployerMapper.cs",
-              "RelativeDocumentMoniker": "BLL\\Mappers\\EmployerMapper.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Mappers\\EmployerMapper.cs",
-              "RelativeToolTip": "BLL\\Mappers\\EmployerMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:41:55.599Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "EmployerModel.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Models\\EmployerModel.cs",
-              "RelativeDocumentMoniker": "BLL\\Models\\EmployerModel.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Models\\EmployerModel.cs",
-              "RelativeToolTip": "BLL\\Models\\EmployerModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:33:10.018Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EmployerEntity.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\EmployerEntity.cs",
-              "RelativeDocumentMoniker": "Coursework\\Entities\\EmployerEntity.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\EmployerEntity.cs",
-              "RelativeToolTip": "Coursework\\Entities\\EmployerEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:23:49.412Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "UnemployedServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\UnemployedServiceTests.cs",
-              "RelativeDocumentMoniker": "MSTestProject\\Service\\UnemployedServiceTests.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\UnemployedServiceTests.cs",
-              "RelativeToolTip": "MSTestProject\\Service\\UnemployedServiceTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T13:28:46.583Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "VacancyServiceTests.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\VacancyServiceTests.cs",
-              "RelativeDocumentMoniker": "MSTestProject\\Service\\VacancyServiceTests.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\VacancyServiceTests.cs",
-              "RelativeToolTip": "MSTestProject\\Service\\VacancyServiceTests.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAQwF8AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T13:19:27.522Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "FakeEmployerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeEmployerRepository.cs",
-              "RelativeDocumentMoniker": "MSTestProject\\Helper\\FakeEmployerRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeEmployerRepository.cs",
-              "RelativeToolTip": "MSTestProject\\Helper\\FakeEmployerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T14:12:55.898Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "FakeResumeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeResumeRepository.cs",
-              "RelativeDocumentMoniker": "MSTestProject\\Helper\\FakeResumeRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeResumeRepository.cs",
-              "RelativeToolTip": "MSTestProject\\Helper\\FakeResumeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-14T13:19:00.08Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "FakeUnemployedRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeUnemployedRepository.cs",
-              "RelativeDocumentMoniker": "MSTestProject\\Helper\\FakeUnemployedRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeUnemployedRepository.cs",
-              "RelativeToolTip": "MSTestProject\\Helper\\FakeUnemployedRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T14:22:52.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "FakeVacancyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeVacancyRepository.cs",
-              "RelativeDocumentMoniker": "MSTestProject\\Helper\\FakeVacancyRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeVacancyRepository.cs",
-              "RelativeToolTip": "MSTestProject\\Helper\\FakeVacancyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-15T14:18:58.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "UnemployedMenu.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Menus\\UnemployedMenu.cs",
-              "RelativeDocumentMoniker": "PL\\Menus\\UnemployedMenu.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Menus\\UnemployedMenu.cs",
-              "RelativeToolTip": "PL\\Menus\\UnemployedMenu.cs",
-              "ViewState": "AgIAAFgAAAAAAAAAAAAkwF4AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:51:00.748Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "InputHelper.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Helper\\InputHelper.cs",
-              "RelativeDocumentMoniker": "PL\\Helper\\InputHelper.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Helper\\InputHelper.cs",
-              "RelativeToolTip": "PL\\Helper\\InputHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T20:07:36.533Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Program.cs",
-              "RelativeDocumentMoniker": "PL\\Program.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Program.cs",
-              "RelativeToolTip": "PL\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:26:20.724Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "VacancyMenu.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Menus\\VacancyMenu.cs",
-              "RelativeDocumentMoniker": "PL\\Menus\\VacancyMenu.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Menus\\VacancyMenu.cs",
-              "RelativeToolTip": "PL\\Menus\\VacancyMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:48:45.883Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
               "Title": "ResumeMenu.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Menus\\ResumeMenu.cs",
               "RelativeDocumentMoniker": "PL\\Menus\\ResumeMenu.cs",
               "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Menus\\ResumeMenu.cs",
               "RelativeToolTip": "PL\\Menus\\ResumeMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T19:50:17.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 6,
               "Title": "EmployerMenu.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Menus\\EmployerMenu.cs",
               "RelativeDocumentMoniker": "PL\\Menus\\EmployerMenu.cs",
               "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Menus\\EmployerMenu.cs",
               "RelativeToolTip": "PL\\Menus\\EmployerMenu.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T19:51:28.649Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "IUnemployedService.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IUnemployedService.cs",
-              "RelativeDocumentMoniker": "BLL\\Interfaces\\IUnemployedService.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IUnemployedService.cs",
-              "RelativeToolTip": "BLL\\Interfaces\\IUnemployedService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 5,
+              "Title": "FileDataContext.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Storage\\FileDataContext.cs",
+              "RelativeDocumentMoniker": "Coursework\\Storage\\FileDataContext.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Storage\\FileDataContext.cs",
+              "RelativeToolTip": "Coursework\\Storage\\FileDataContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswAQAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:44:11.74Z"
+              "WhenOpened": "2025-11-13T19:24:36.802Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 4,
+              "Title": "PL",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\PL.csproj",
+              "RelativeDocumentMoniker": "PL\\PL.csproj",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\PL.csproj",
+              "RelativeToolTip": "PL\\PL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-19T17:31:25.884Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "InputHelper.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Helper\\InputHelper.cs",
+              "RelativeDocumentMoniker": "PL\\Helper\\InputHelper.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Helper\\InputHelper.cs",
+              "RelativeToolTip": "PL\\Helper\\InputHelper.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T20:07:36.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Program.cs",
+              "RelativeDocumentMoniker": "PL\\Program.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Program.cs",
+              "RelativeToolTip": "PL\\Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:26:20.724Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UnemployedMenu.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Menus\\UnemployedMenu.cs",
+              "RelativeDocumentMoniker": "PL\\Menus\\UnemployedMenu.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Menus\\UnemployedMenu.cs",
+              "RelativeToolTip": "PL\\Menus\\UnemployedMenu.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAYwAwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:51:00.748Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "VacancyMenu.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Menus\\VacancyMenu.cs",
+              "RelativeDocumentMoniker": "PL\\Menus\\VacancyMenu.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\PL\\Menus\\VacancyMenu.cs",
+              "RelativeToolTip": "PL\\Menus\\VacancyMenu.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:48:45.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "BLL.csproj",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\BLL.csproj",
               "RelativeDocumentMoniker": "BLL\\BLL.csproj",
@@ -554,295 +347,228 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "IVacancyService.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IVacancyService.cs",
-              "RelativeDocumentMoniker": "BLL\\Interfaces\\IVacancyService.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IVacancyService.cs",
-              "RelativeToolTip": "BLL\\Interfaces\\IVacancyService.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAkwAwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "EmployerEntity.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\EmployerEntity.cs",
+              "RelativeDocumentMoniker": "Coursework\\Entities\\EmployerEntity.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\EmployerEntity.cs",
+              "RelativeToolTip": "Coursework\\Entities\\EmployerEntity.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAzwAsAAACHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:45:26.607Z"
+              "WhenOpened": "2025-11-13T19:23:49.412Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "IResumeService.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IResumeService.cs",
-              "RelativeDocumentMoniker": "BLL\\Interfaces\\IResumeService.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IResumeService.cs",
-              "RelativeToolTip": "BLL\\Interfaces\\IResumeService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAuwAwAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:43:13.779Z"
+              "DocumentIndex": 10,
+              "Title": "DAL.csproj",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\DAL.csproj",
+              "RelativeDocumentMoniker": "Coursework\\DAL.csproj",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\DAL.csproj",
+              "RelativeToolTip": "Coursework\\DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-13T19:23:15.555Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 11,
+              "Title": "FakeEmployerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeEmployerRepository.cs",
+              "RelativeDocumentMoniker": "MSTestProject\\Helper\\FakeEmployerRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeEmployerRepository.cs",
+              "RelativeToolTip": "MSTestProject\\Helper\\FakeEmployerRepository.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAIAwwCoAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T14:12:55.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FakeVacancyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeVacancyRepository.cs",
+              "RelativeDocumentMoniker": "MSTestProject\\Helper\\FakeVacancyRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeVacancyRepository.cs",
+              "RelativeToolTip": "MSTestProject\\Helper\\FakeVacancyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T14:18:58.271Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "FakeUnemployedRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeUnemployedRepository.cs",
+              "RelativeDocumentMoniker": "MSTestProject\\Helper\\FakeUnemployedRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeUnemployedRepository.cs",
+              "RelativeToolTip": "MSTestProject\\Helper\\FakeUnemployedRepository.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAYwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T14:22:52.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "FakeResumeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeResumeRepository.cs",
+              "RelativeDocumentMoniker": "MSTestProject\\Helper\\FakeResumeRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Helper\\FakeResumeRepository.cs",
+              "RelativeToolTip": "MSTestProject\\Helper\\FakeResumeRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:19:00.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "ServiceFactory.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Dependency\\ServiceFactory.cs",
               "RelativeDocumentMoniker": "BLL\\Dependency\\ServiceFactory.cs",
               "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Dependency\\ServiceFactory.cs",
               "RelativeToolTip": "BLL\\Dependency\\ServiceFactory.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:50:26.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "FileDataContext.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Storage\\FileDataContext.cs",
-              "RelativeDocumentMoniker": "Coursework\\Storage\\FileDataContext.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Storage\\FileDataContext.cs",
-              "RelativeToolTip": "Coursework\\Storage\\FileDataContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:24:36.802Z"
+              "WhenOpened": "2025-11-13T15:50:26.84Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "BusinessException.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Exceptions\\BusinessException.cs",
-              "RelativeDocumentMoniker": "BLL\\Exceptions\\BusinessException.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Exceptions\\BusinessException.cs",
-              "RelativeToolTip": "BLL\\Exceptions\\BusinessException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "UnemployedService.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\UnemployedService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\UnemployedService.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\UnemployedService.cs",
+              "RelativeToolTip": "BLL\\Services\\UnemployedService.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:43:13.696Z"
+              "WhenOpened": "2025-11-13T19:44:34.322Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
-              "Title": "LimitExceededException.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Exceptions\\LimitExceededException.cs",
-              "RelativeDocumentMoniker": "BLL\\Exceptions\\LimitExceededException.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Exceptions\\LimitExceededException.cs",
-              "RelativeToolTip": "BLL\\Exceptions\\LimitExceededException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "DocumentIndex": 17,
+              "Title": "VacancyService.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\VacancyService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\VacancyService.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\VacancyService.cs",
+              "RelativeToolTip": "BLL\\Services\\VacancyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:35:06.349Z"
+              "WhenOpened": "2025-11-13T15:49:02.487Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "NotFoundException.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Exceptions\\NotFoundException.cs",
-              "RelativeDocumentMoniker": "BLL\\Exceptions\\NotFoundException.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Exceptions\\NotFoundException.cs",
-              "RelativeToolTip": "BLL\\Exceptions\\NotFoundException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAiAAAAAAAAAA==",
+              "DocumentIndex": 18,
+              "Title": "EmployerService.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\EmployerService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\EmployerService.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\EmployerService.cs",
+              "RelativeToolTip": "BLL\\Services\\EmployerService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:42:29.036Z"
+              "WhenOpened": "2025-11-13T19:45:07.967Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 19,
+              "Title": "IVacancyService.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IVacancyService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IVacancyService.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IVacancyService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IVacancyService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:45:26.607Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUnemployedService.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IUnemployedService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IUnemployedService.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IUnemployedService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IUnemployedService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:44:11.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IResumeService.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IResumeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IResumeService.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IResumeService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IResumeService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:43:13.779Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IEmployerService.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IEmployerService.cs",
+              "RelativeDocumentMoniker": "BLL\\Interfaces\\IEmployerService.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Interfaces\\IEmployerService.cs",
+              "RelativeToolTip": "BLL\\Interfaces\\IEmployerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:44:55.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
               "Title": "ResumeMapper.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Mappers\\ResumeMapper.cs",
               "RelativeDocumentMoniker": "BLL\\Mappers\\ResumeMapper.cs",
               "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Mappers\\ResumeMapper.cs",
               "RelativeToolTip": "BLL\\Mappers\\ResumeMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:39:34.991Z"
+              "WhenOpened": "2025-11-13T19:39:34.991Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "IVacancyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IVacancyRepository.cs",
-              "RelativeDocumentMoniker": "Coursework\\Interfaces\\IVacancyRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IVacancyRepository.cs",
-              "RelativeToolTip": "Coursework\\Interfaces\\IVacancyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "UnemployedMapper.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Mappers\\UnemployedMapper.cs",
+              "RelativeDocumentMoniker": "BLL\\Mappers\\UnemployedMapper.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Mappers\\UnemployedMapper.cs",
+              "RelativeToolTip": "BLL\\Mappers\\UnemployedMapper.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAABEAAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:19:58.45Z"
+              "WhenOpened": "2025-11-13T19:41:38.277Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "IUnemployedRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IUnemployedRepository.cs",
-              "RelativeDocumentMoniker": "Coursework\\Interfaces\\IUnemployedRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IUnemployedRepository.cs",
-              "RelativeToolTip": "Coursework\\Interfaces\\IUnemployedRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "EmployerMapper.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Mappers\\EmployerMapper.cs",
+              "RelativeDocumentMoniker": "BLL\\Mappers\\EmployerMapper.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Mappers\\EmployerMapper.cs",
+              "RelativeToolTip": "BLL\\Mappers\\EmployerMapper.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwBIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:20:48.647Z"
+              "WhenOpened": "2025-11-13T19:41:55.599Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "IResumeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IResumeRepository.cs",
-              "RelativeDocumentMoniker": "Coursework\\Interfaces\\IResumeRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IResumeRepository.cs",
-              "RelativeToolTip": "Coursework\\Interfaces\\IResumeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:20:16.265Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "IEmployerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IEmployerRepository.cs",
-              "RelativeDocumentMoniker": "Coursework\\Interfaces\\IEmployerRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IEmployerRepository.cs",
-              "RelativeToolTip": "Coursework\\Interfaces\\IEmployerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:21:43.406Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IRepository.cs",
-              "RelativeDocumentMoniker": "Coursework\\Interfaces\\IRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IRepository.cs",
-              "RelativeToolTip": "Coursework\\Interfaces\\IRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:19:32.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "ResumeRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\ResumeRepository.cs",
-              "RelativeDocumentMoniker": "Coursework\\Repositories\\ResumeRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\ResumeRepository.cs",
-              "RelativeToolTip": "Coursework\\Repositories\\ResumeRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:27:34.26Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "IEntity.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IEntity.cs",
-              "RelativeDocumentMoniker": "Coursework\\Interfaces\\IEntity.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IEntity.cs",
-              "RelativeToolTip": "Coursework\\Interfaces\\IEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:38:41.635Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 40,
-              "Title": "UnemployedEntity.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\UnemployedEntity.cs",
-              "RelativeDocumentMoniker": "Coursework\\Entities\\UnemployedEntity.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\UnemployedEntity.cs",
-              "RelativeToolTip": "Coursework\\Entities\\UnemployedEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:23:33.494Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 41,
-              "Title": "ResumeModel.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Models\\ResumeModel.cs",
-              "RelativeDocumentMoniker": "BLL\\Models\\ResumeModel.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Models\\ResumeModel.cs",
-              "RelativeToolTip": "BLL\\Models\\ResumeModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:42:01.863Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 42,
-              "Title": "VacancyRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\VacancyRepository.cs",
-              "RelativeDocumentMoniker": "Coursework\\Repositories\\VacancyRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\VacancyRepository.cs",
-              "RelativeToolTip": "Coursework\\Repositories\\VacancyRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:27:13.195Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 43,
-              "Title": "UnemployedRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\UnemployedRepository.cs",
-              "RelativeDocumentMoniker": "Coursework\\Repositories\\UnemployedRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\UnemployedRepository.cs",
-              "RelativeToolTip": "Coursework\\Repositories\\UnemployedRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:27:47.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 44,
-              "Title": "JsonRepositoryBase.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\JsonRepositoryBase.cs",
-              "RelativeDocumentMoniker": "Coursework\\Repositories\\JsonRepositoryBase.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\JsonRepositoryBase.cs",
-              "RelativeToolTip": "Coursework\\Repositories\\JsonRepositoryBase.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:37:51.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 45,
-              "Title": "EmployerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\EmployerRepository.cs",
-              "RelativeDocumentMoniker": "Coursework\\Repositories\\EmployerRepository.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\EmployerRepository.cs",
-              "RelativeToolTip": "Coursework\\Repositories\\EmployerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:28:00.923Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "DataAccessException.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Exceptions\\DataAccessException.cs",
-              "RelativeDocumentMoniker": "Coursework\\Exceptions\\DataAccessException.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Exceptions\\DataAccessException.cs",
-              "RelativeToolTip": "Coursework\\Exceptions\\DataAccessException.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:36:12.164Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 47,
-              "Title": "VacancyEntity.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\VacancyEntity.cs",
-              "RelativeDocumentMoniker": "Coursework\\Entities\\VacancyEntity.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\VacancyEntity.cs",
-              "RelativeToolTip": "Coursework\\Entities\\VacancyEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:22:48.84Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 48,
-              "Title": "ResumeEntity.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\ResumeEntity.cs",
-              "RelativeDocumentMoniker": "Coursework\\Entities\\ResumeEntity.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\ResumeEntity.cs",
-              "RelativeToolTip": "Coursework\\Entities\\ResumeEntity.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:23:18.319Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 26,
               "Title": "VacancyModel.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Models\\VacancyModel.cs",
               "RelativeDocumentMoniker": "BLL\\Models\\VacancyModel.cs",
@@ -850,11 +576,12 @@
               "RelativeToolTip": "BLL\\Models\\VacancyModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:41:35.906Z"
+              "WhenOpened": "2025-11-13T15:41:35.906Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 27,
               "Title": "UnemployedModel.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Models\\UnemployedModel.cs",
               "RelativeDocumentMoniker": "BLL\\Models\\UnemployedModel.cs",
@@ -862,36 +589,342 @@
               "RelativeToolTip": "BLL\\Models\\UnemployedModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T15:40:38.902Z"
+              "WhenOpened": "2025-11-13T15:40:38.902Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 28,
+              "Title": "ResumeModel.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Models\\ResumeModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Models\\ResumeModel.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Models\\ResumeModel.cs",
+              "RelativeToolTip": "BLL\\Models\\ResumeModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:42:01.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "EmployerModel.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Models\\EmployerModel.cs",
+              "RelativeDocumentMoniker": "BLL\\Models\\EmployerModel.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Models\\EmployerModel.cs",
+              "RelativeToolTip": "BLL\\Models\\EmployerModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:33:10.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Coursework\\Interfaces\\IRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Coursework\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:19:32.771Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "IUnemployedRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IUnemployedRepository.cs",
+              "RelativeDocumentMoniker": "Coursework\\Interfaces\\IUnemployedRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IUnemployedRepository.cs",
+              "RelativeToolTip": "Coursework\\Interfaces\\IUnemployedRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:20:48.647Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "IVacancyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IVacancyRepository.cs",
+              "RelativeDocumentMoniker": "Coursework\\Interfaces\\IVacancyRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IVacancyRepository.cs",
+              "RelativeToolTip": "Coursework\\Interfaces\\IVacancyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:19:58.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "VacancyRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\VacancyRepository.cs",
+              "RelativeDocumentMoniker": "Coursework\\Repositories\\VacancyRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\VacancyRepository.cs",
+              "RelativeToolTip": "Coursework\\Repositories\\VacancyRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:27:13.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "UnemployedRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\UnemployedRepository.cs",
+              "RelativeDocumentMoniker": "Coursework\\Repositories\\UnemployedRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\UnemployedRepository.cs",
+              "RelativeToolTip": "Coursework\\Repositories\\UnemployedRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:27:47.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ResumeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\ResumeRepository.cs",
+              "RelativeDocumentMoniker": "Coursework\\Repositories\\ResumeRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\ResumeRepository.cs",
+              "RelativeToolTip": "Coursework\\Repositories\\ResumeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:27:34.26Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "JsonRepositoryBase.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\JsonRepositoryBase.cs",
+              "RelativeDocumentMoniker": "Coursework\\Repositories\\JsonRepositoryBase.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\JsonRepositoryBase.cs",
+              "RelativeToolTip": "Coursework\\Repositories\\JsonRepositoryBase.cs",
+              "ViewState": "AgIAAGAAAAAAAAAAAAAIwBcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:37:51.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "EmployerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\EmployerRepository.cs",
+              "RelativeDocumentMoniker": "Coursework\\Repositories\\EmployerRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Repositories\\EmployerRepository.cs",
+              "RelativeToolTip": "Coursework\\Repositories\\EmployerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:28:00.923Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IEntity.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IEntity.cs",
+              "RelativeDocumentMoniker": "Coursework\\Interfaces\\IEntity.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IEntity.cs",
+              "RelativeToolTip": "Coursework\\Interfaces\\IEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:38:41.635Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "IEmployerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IEmployerRepository.cs",
+              "RelativeDocumentMoniker": "Coursework\\Interfaces\\IEmployerRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IEmployerRepository.cs",
+              "RelativeToolTip": "Coursework\\Interfaces\\IEmployerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:21:43.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "DataAccessException.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Exceptions\\DataAccessException.cs",
+              "RelativeDocumentMoniker": "Coursework\\Exceptions\\DataAccessException.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Exceptions\\DataAccessException.cs",
+              "RelativeToolTip": "Coursework\\Exceptions\\DataAccessException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:36:12.164Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "VacancyEntity.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\VacancyEntity.cs",
+              "RelativeDocumentMoniker": "Coursework\\Entities\\VacancyEntity.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\VacancyEntity.cs",
+              "RelativeToolTip": "Coursework\\Entities\\VacancyEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:22:48.84Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ResumeEntity.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\ResumeEntity.cs",
+              "RelativeDocumentMoniker": "Coursework\\Entities\\ResumeEntity.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\ResumeEntity.cs",
+              "RelativeToolTip": "Coursework\\Entities\\ResumeEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:23:18.319Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UnemployedEntity.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\UnemployedEntity.cs",
+              "RelativeDocumentMoniker": "Coursework\\Entities\\UnemployedEntity.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Entities\\UnemployedEntity.cs",
+              "RelativeToolTip": "Coursework\\Entities\\UnemployedEntity.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:23:33.494Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "ResumeService.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\ResumeService.cs",
+              "RelativeDocumentMoniker": "BLL\\Services\\ResumeService.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Services\\ResumeService.cs",
+              "RelativeToolTip": "BLL\\Services\\ResumeService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEYAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:43:38.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "NotFoundException.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Exceptions\\NotFoundException.cs",
+              "RelativeDocumentMoniker": "BLL\\Exceptions\\NotFoundException.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Exceptions\\NotFoundException.cs",
+              "RelativeToolTip": "BLL\\Exceptions\\NotFoundException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T15:42:29.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LimitExceededException.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Exceptions\\LimitExceededException.cs",
+              "RelativeDocumentMoniker": "BLL\\Exceptions\\LimitExceededException.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Exceptions\\LimitExceededException.cs",
+              "RelativeToolTip": "BLL\\Exceptions\\LimitExceededException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:35:06.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
               "Title": "VacancyMapper.cs",
               "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Mappers\\VacancyMapper.cs",
               "RelativeDocumentMoniker": "BLL\\Mappers\\VacancyMapper.cs",
               "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Mappers\\VacancyMapper.cs",
               "RelativeToolTip": "BLL\\Mappers\\VacancyMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-13T15:46:43.741Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
-              "Title": "UnemployedMapper.cs",
-              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Mappers\\UnemployedMapper.cs",
-              "RelativeDocumentMoniker": "BLL\\Mappers\\UnemployedMapper.cs",
-              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Mappers\\UnemployedMapper.cs",
-              "RelativeToolTip": "BLL\\Mappers\\UnemployedMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAABAAAAAAAAAA==",
+              "DocumentIndex": 48,
+              "Title": "BusinessException.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Exceptions\\BusinessException.cs",
+              "RelativeDocumentMoniker": "BLL\\Exceptions\\BusinessException.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\BLL\\Exceptions\\BusinessException.cs",
+              "RelativeToolTip": "BLL\\Exceptions\\BusinessException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-13T19:41:38.277Z"
+              "WhenOpened": "2025-11-13T15:43:13.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "UnemployedServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\UnemployedServiceTests.cs",
+              "RelativeDocumentMoniker": "MSTestProject\\Service\\UnemployedServiceTests.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\UnemployedServiceTests.cs",
+              "RelativeToolTip": "MSTestProject\\Service\\UnemployedServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:28:46.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "ResumeServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\ResumeServiceTests.cs",
+              "RelativeDocumentMoniker": "MSTestProject\\Service\\ResumeServiceTests.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\ResumeServiceTests.cs",
+              "RelativeToolTip": "MSTestProject\\Service\\ResumeServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:36:51.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "EmployerServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\EmployerServiceTests.cs",
+              "RelativeDocumentMoniker": "MSTestProject\\Service\\EmployerServiceTests.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\EmployerServiceTests.cs",
+              "RelativeToolTip": "MSTestProject\\Service\\EmployerServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T14:49:01.899Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "VacancyServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\VacancyServiceTests.cs",
+              "RelativeDocumentMoniker": "MSTestProject\\Service\\VacancyServiceTests.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\MSTestProject\\Service\\VacancyServiceTests.cs",
+              "RelativeToolTip": "MSTestProject\\Service\\VacancyServiceTests.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:19:27.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "IResumeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IResumeRepository.cs",
+              "RelativeDocumentMoniker": "Coursework\\Interfaces\\IResumeRepository.cs",
+              "ToolTip": "C:\\Users\\artem\\source\\repos\\Coursework\\Coursework\\Interfaces\\IResumeRepository.cs",
+              "RelativeToolTip": "Coursework\\Interfaces\\IResumeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T19:20:16.265Z"
             }
           ]
         },
         {
-          "DockedHeight": 103,
+          "DockedHeight": 140,
           "SelectedChildIndex": -1,
           "Children": [
             {

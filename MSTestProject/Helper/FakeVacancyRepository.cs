@@ -25,15 +25,20 @@ namespace MSTestProject.Helper
             if (item != null) Data.Remove(item);
         }
 
-        public VacancyEntity GetById(Guid id) =>
-            Data.FirstOrDefault(x => x.Id == id);
+        public VacancyEntity GetById(Guid id)
+        {
+            return Data.FirstOrDefault(x => x.Id == id);
+        }
+        public IEnumerable<VacancyEntity> GetAll()
+        {
+            return Data;
+        }
 
-        public IEnumerable<VacancyEntity> GetAll() => Data;
+        public IEnumerable<VacancyEntity> Find(Func<VacancyEntity, bool> predicate)
+        {
+            return Data.Where(predicate);
+        }
 
-        public IEnumerable<VacancyEntity> Find(Func<VacancyEntity, bool> predicate) =>
-            Data.Where(predicate);
-
-        //   метод з інтерфейсу
         public IEnumerable<VacancyEntity> GetByCategory(string category)
         {
             if (string.IsNullOrWhiteSpace(category))
@@ -44,7 +49,7 @@ namespace MSTestProject.Helper
                 x.Category.Equals(category, StringComparison.OrdinalIgnoreCase));
         }
 
-        // 🔥 метод з інтерфейсу
+
         public IEnumerable<VacancyEntity> GetOpenVacancies()
         {
             return Data.Where(x => x.IsOpen);

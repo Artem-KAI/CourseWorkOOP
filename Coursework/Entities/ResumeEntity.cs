@@ -6,7 +6,7 @@ namespace DAL.Entities
     {
         public Guid Id { get; set; } = Guid.NewGuid();
         public Guid UnemployedId { get; set; }
-        public string Title { get; set; } = string.Empty; // бажана посада
+        public string Title { get; set; } = string.Empty;  
         public List<string> Skills { get; set; } = new List<string>();
         public int ExperienceYears { get; set; } = 0;
         public string Education { get; set; } = string.Empty;

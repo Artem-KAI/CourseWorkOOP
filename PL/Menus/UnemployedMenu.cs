@@ -1,7 +1,8 @@
-﻿using System;
-using PL.Helper;
+﻿using BLL.Dependency;
 using BLL.Models;
-using BLL.Dependency;
+using PL.Helper;
+using System;
+using System.Text;
 
 namespace PL.Menus
 {
@@ -9,6 +10,8 @@ namespace PL.Menus
     {
         public static void ShowMenu()
         {
+            Console.OutputEncoding = Encoding.UTF8;
+
             while (true)
             {
                 Console.Clear();
@@ -44,7 +47,7 @@ namespace PL.Menus
                     Console.WriteLine($"Помилка: {ex.Message}");
                 }
 
-                Console.WriteLine("Натисніть будь-яку клавішу...");
+                Console.WriteLine("Натисніть будь яку клавішу");
                 Console.ReadKey();
             }
         }
@@ -60,6 +63,8 @@ namespace PL.Menus
         {
             var f = InputHelper.ReadNonEmptyString("Ім’я: ");
             var l = InputHelper.ReadNonEmptyString("Прізвище: ");
+            var phone = InputHelper.ReadNonEmptyString("Телефон: ");
+            var dob = InputHelper.ReadDate("Дата народження (ДД.ММ.РРРР): ", allowNull: true);
             var email = InputHelper.ReadEmail("Email: ");
 
             var u = new UnemployedModel
@@ -67,7 +72,9 @@ namespace PL.Menus
                 Id = Guid.NewGuid(),
                 FirstName = f,
                 LastName = l,
-                Email = email
+                Email = email,
+                Phone = phone,
+                DOB = dob
             };
 
             Program.UnemployedService.Add(u);
@@ -81,6 +88,8 @@ namespace PL.Menus
 
             u.FirstName = InputHelper.ReadNonEmptyString($"Ім’я ({u.FirstName}): ", u.FirstName);
             u.LastName = InputHelper.ReadNonEmptyString($"Прізвище ({u.LastName}): ", u.LastName);
+            u.Phone = InputHelper.ReadNonEmptyString($"Телефон ({u.Phone}): ", u.Phone);
+            u.DOB = InputHelper.ReadDate($"Дата народження ({u.DOB:d}): ", allowNull: true, defaultValue: u.DOB);
             u.Email = InputHelper.ReadEmail($"Email ({u.Email}): ", u.Email);
 
             Program.UnemployedService.Update(u);

@@ -1,7 +1,6 @@
-﻿using System;
+﻿using BLL.Models;
 using PL.Helper;
-using BLL.Dependency;
-using BLL.Models;
+using System.Text;
 
 namespace PL.Menus
 {
@@ -11,6 +10,8 @@ namespace PL.Menus
         {
             while (true)
             {
+                Console.OutputEncoding = Encoding.UTF8;
+
                 Console.Clear();
                 Console.WriteLine("=== Управління роботодавцями ===");
                 Console.WriteLine("1. Переглянути всіх");
@@ -42,7 +43,7 @@ namespace PL.Menus
                     Console.WriteLine($"Помилка: {ex.Message}");
                 }
 
-                Console.WriteLine("Натисніть будь-яку клавішу...");
+                Console.WriteLine("Натисніть будь яку клавішу");
                 Console.ReadKey();
             }
         }
@@ -56,17 +57,22 @@ namespace PL.Menus
 
         private static void AddEmployer()
         {
+            var companyName = InputHelper.ReadNonEmptyString("Назва компанії: ");
             var firstName = InputHelper.ReadNonEmptyString("Ім’я: ");
             var lastName = InputHelper.ReadNonEmptyString("Прізвище: ");
             var email = InputHelper.ReadEmail("Email: ");
+            var phone = InputHelper.ReadNonEmptyString("Телефон: ");
 
             var emp = new EmployerModel
             {
                 Id = Guid.NewGuid(),
+                CompanyName = companyName,
                 FirstName = firstName,
                 LastName = lastName,
-                Email = email
+                Email = email,
+                Phone = phone
             };
+
             Program.EmployerService.Add(emp);
             Console.WriteLine("Роботодавця додано!");
         }
@@ -76,8 +82,10 @@ namespace PL.Menus
             var id = InputHelper.ReadGuid("ID для редагування: ");
             var emp = Program.EmployerService.GetById(id);
 
+            emp.CompanyName = InputHelper.ReadNonEmptyString($"Назва компанії ({emp.CompanyName}): ", emp.CompanyName);
             emp.FirstName = InputHelper.ReadNonEmptyString($"Ім’я ({emp.FirstName}): ", emp.FirstName);
             emp.LastName = InputHelper.ReadNonEmptyString($"Прізвище ({emp.LastName}): ", emp.LastName);
+            emp.Phone = InputHelper.ReadNonEmptyString($"Телефон ({emp.Phone}): ", emp.Phone);
             emp.Email = InputHelper.ReadEmail($"Email ({emp.Email}): ", emp.Email);
 
             Program.EmployerService.Update(emp);

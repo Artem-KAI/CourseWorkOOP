@@ -1,9 +1,10 @@
 ﻿using DAL.Entities;
 using DAL.Storage;
+using DAL.Interfaces;
 
 namespace DAL.Repositories
 {
-    public class EmployerRepository : JsonRepositoryBase<EmployerEntity>, DAL.Interfaces.IEmployerRepository
+    public class EmployerRepository : JsonRepositoryBase<EmployerEntity>, IEmployerRepository
     {
         private const string FileName = "employers.json";
 

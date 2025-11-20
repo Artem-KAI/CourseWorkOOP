@@ -67,6 +67,7 @@ namespace BLL.Services
                 .OrderBy(r => r.Title)
                 .Select(ResumeMapper.ToModel);
         }
+        ///////////////////////// 1.7 /////////////////////////////
         public IEnumerable<ResumeModel> GetSortedByCategory()
         {
             return _repository.GetAll()

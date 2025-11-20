@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Text.RegularExpressions;
 
 namespace PL.Helper
@@ -50,6 +51,26 @@ namespace PL.Helper
             return ReadInt(message, defaultValue);
         }
 
+        public static DateTime? ReadDate(string message, bool allowNull = false, DateTime? defaultValue = null)
+        {
+            while (true)
+            {
+                Console.Write(message);
+                var input = Console.ReadLine();
+
+                if (string.IsNullOrWhiteSpace(input))
+                {
+                    if (defaultValue.HasValue) return defaultValue.Value;
+                    if (allowNull) return null;
+                }
+
+                if (DateTime.TryParse(input, CultureInfo.CurrentCulture, DateTimeStyles.None, out DateTime value))
+                    return value;
+
+                Console.WriteLine("Введіть коректну дату (напр, 25.12.1990)!");
+            }
+        }
+
         public static bool ReadBool(string message, bool? defaultValue = null)
         {
             Console.Write(message);
@@ -78,55 +99,3 @@ namespace PL.Helper
         }
     }
 }
-
-
-//using System;
-//using System.Text.RegularExpressions;
-
-//namespace PL.Helper
-//{
-//    public static class InputHelper
-//    {
-//        public static string ReadNonEmptyString(string prompt, string? defaultValue = null)
-//        {
-//            while (true)
-//            {
-//                Console.Write(prompt);
-//                var input = Console.ReadLine();
-//                if (!string.IsNullOrWhiteSpace(input))
-//                    return input;
-//                if (defaultValue != null)
-//                    return defaultValue;
-//                Console.WriteLine("Поле не може бути пустим!");
-//            }
-//        }
-
-//        public static Guid ReadGuid(string prompt)
-//        {
-//            while (true)
-//            {
-//                Console.Write(prompt);
-//                if (Guid.TryParse(Console.ReadLine(), out Guid id))
-//                    return id;
-//                Console.WriteLine("Невірний формат GUID!");
-//            }
-//        }
-
-//        public static string ReadEmail(string prompt, string? defaultValue = null)
-//        {
-//            while (true)
-//            {
-//                Console.Write(prompt);
-//                var email = Console.ReadLine();
-//                if (string.IsNullOrWhiteSpace(email) && defaultValue != null)
-//                    return defaultValue;
-
-//                if (!string.IsNullOrWhiteSpace(email) &&
-//                    Regex.IsMatch(email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
-//                    return email;
-
-//                Console.WriteLine("Невірний формат email!");
-//            }
-//        }
-//    }
-//}
