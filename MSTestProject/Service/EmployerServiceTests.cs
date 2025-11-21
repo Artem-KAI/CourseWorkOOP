@@ -96,13 +96,10 @@ namespace MSTestProject.Services
                 new EmployerEntity { Id = Guid.NewGuid() }  
             };
             _mockRepo.Setup(x => x.GetAll()).Returns(entities);
-
-            // Act
+            
             var result = _service.GetSortedByLastName();
-
-            // Assert
+            
             _mockRepo.Verify(x => x.GetAll(), Times.Once);
-            // Тут ти можеш додати перевірку Assert.AreEqual, якщо знаєш точні дані
         }
     }
 }
